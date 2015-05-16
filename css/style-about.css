@@ -1,0 +1,505 @@
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 95%;
+  top: 30px;
+  width: 100.9%;
+
+}
+
+/*  header  */
+header{
+    width: 100.9%;
+    height: 80px;
+    background: #ffffff;
+    margin-top: -632px;
+    margin-left: -8px;
+    position: absolute;
+
+}
+
+header .logo{
+    float: left;
+    margin-top: -77px;
+    margin-left: 100px;
+}
+
+header nav{
+    overflow: hidden;
+    display: inline-block;
+    margin: 7px 0 0 20px;
+    padding: 13px 40px;
+    margin-left: -140px;
+    margin-top: 14px;
+/*    border-left: 1px #1d1e22 solid;
+*/}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 45px;
+    font-size: 16px;
+    font-family: 'lato_regular', arial;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+header nav ul li:first-child{
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #1d1e22;
+}
+
+header nav ul li a:hover{
+    color: #75cec2;
+    text-decoration: none;
+}
+
+
+header nav ul li a:active{
+    color: #75cec2;
+    text-decoration: none;
+}
+
+
+header nav ul li a:link{
+    color: #75cec2;
+    text-decoration: none;
+}
+
+
+
+
+.login-emailpassword {
+    margin-top: -50px;
+    margin-left: 860px;
+}
+
+ input, select, textarea {
+    font-family: 'lato-regular', arial;
+    color: #d5d5d5;
+    font-size: 71%;
+    width: 144px;
+    height: 29px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+}
+
+.button1  {
+    font-family: 'lato-regular', arial;
+    font-size: 100%;
+    width: 95px;
+    height: 32px;
+    margin: 0;
+    background-color: #75cec2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    border: none;
+    -moz-border-radius: 5px;
+}
+
+
+.login-emailpassword a {
+    font-family: 'lato-regular', arial;
+    color: #9a9999;
+    font-size:10px;
+    margin-left: 150px;
+}
+
+
+/*feature1 - box 1*/
+
+.features{
+    width:100%;
+    padding: 160px 0;
+    background: white;
+}
+
+.features .row{
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.features .row:last-child {
+    margin-bottom: 0;
+}
+
+.features .row .feature:last-child{
+    margin-right: 0;
+}
+
+.features .feature{
+    display: block;
+    width: 696px;
+    height: 100px;
+    margin-left: 330px;
+    margin-top: 100px;
+}
+
+.feature .title-section {
+    display: block;
+    width: 179%;
+    margin-top:  -130px;
+    margin-left: 230px;
+}
+
+.feature .title-section p {
+    margin-bottom: 20px;
+    color: #1d1e22;
+    font-family: 'lato-regular', arial;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.feature .about-text p {
+    color: #1d1e22;
+    font-family: 'lato-regular', arial;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 70px;
+    text-align: justify;
+}
+
+
+/*what people say about us*/
+
+.features2{
+    width:100%;
+    padding: 111px 0;
+    background: white;
+    margin-top: -60px;
+
+}
+
+.features2 .row{
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.features2 .row:last-child {
+    margin-bottom: 0;
+}
+
+.features2 .row .feature2:last-child{
+    margin-right: 0;
+}
+
+.features2 .feature2{
+    display: block;
+    width: 120%;
+    height: 678px;
+    float: left;
+    margin-left: -5px;
+    background-image: url('img/bg-pink02.png');
+}
+
+.feature2 .steps-row {
+    display: block;
+    width: 100px;
+    float: left;
+    margin-right: 40px;
+    margin-left: -31px;
+    margin-top: 30px;
+}
+
+.feature2 .steps-row {
+    margin-top: 50px;
+}
+
+.feature2 .title-section2 {
+    display: block;
+    width: 179%;
+    margin-top: 84px;
+    margin-left: 530px;
+}
+
+.feature2 p{
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'lato-regular', arial;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.comment1 p {
+    color: white;
+    margin-top: 110px;
+    font-size: 17px;
+    margin-left: 220px;
+}
+
+.comment1-person p {
+    display: block;
+    color: #ffd12f;
+    width: 179%;
+    margin-top: -72px;
+    margin-left: 219px;
+    font-size: 20px;
+}
+
+
+.comment2 p {
+  color: white;
+    margin-top: 90px;
+    font-size: 17px;
+    margin-left: 220px;
+}
+
+
+.comment2-person p {
+  display: block;
+    color: #ffd12f;
+    width: 179%;
+    margin-top:-72px;
+    margin-left: 219px;
+    font-size: 20px;
+}
+
+.comment3 p {
+    color: white;
+    margin-top: -350px;
+    font-size: 17px;
+    margin-left: 760px;
+}
+
+.comment3-person p {
+    display: block;
+    color: #ffd12f;
+    width: 179%;
+    margin-top: -72px;
+    margin-left: 760px;
+    font-size: 20px;
+}
+
+
+.comment4 p {
+  color: white;
+    margin-top: 90px;
+    font-size: 17px;
+    margin-left: 760px;
+}
+
+
+.comment4-person p {
+  display: block;
+    color: #ffd12f;
+    width: 179%;
+    margin-top:-72px;
+    margin-left: 760px;
+    font-size: 20px;
+}
+
+/*triangulo branco*/
+
+.triangulo {
+    margin-top: -1381px;
+    margin-left: 665px;
+}
+
+/*sign up form*/
+
+.features3{
+    width:100%;
+    padding: 160px 0;
+    background: white;
+   margin-top: -220px;
+}
+
+
+.feature3 .title-section {
+    display: block;
+    width: 179%;
+    margin-left: 620px;
+}
+
+.feature3 p{
+    margin-bottom: 20px;
+    color: #1d1e22;
+    font-family: 'lato-regular', arial;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+
+.signup-login {
+    margin-top: -130px;
+    margin-left: 540px;
+}
+
+ .signup-login input, select, textarea {
+    font-family: 'lato-regular', arial;
+    color: #d5d5d5;
+    font-size: 94%;
+    width: 334px;
+    height: 49px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    margin-top: 15px;
+}
+
+.button4  {
+    font-family: 'lato-regular', arial;
+    font-size: 150%;
+    width: 205px;
+    height: 48px;
+    margin: 0;
+    background-color: #75cec2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    border: none;
+    -moz-border-radius: 5px;
+    margin-left: 53px;
+    margin-top: 20px;
+}
+
+
+.signup-login a {
+    font-family: 'lato-regular', arial;
+    color: #9a9999;
+    font-size:10px;
+    margin-left: 150px;
+}
+
+
+/*footer social media icons*/
+
+.features4{
+    width:100%;
+    padding: 108px 0;
+    background: url(img/bg-blue.png);
+    height: 20px;
+    margin-top: 100px;
+}
+
+
+.feature4 .title-section {
+    display: block;
+    width: 179%;
+    margin-top: 570px;
+    margin-left: 620px;
+}
+
+.feature4 p{
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'lato-regular', arial;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: -63px;
+    margin-left: 580px;
+}
+
+
+.facebook {
+    display: block;
+    margin-left: 560px;
+    margin-top: 0px;
+}
+
+.twitter {
+    display: block;
+    margin-left: 650px;
+    margin-top: -92px;
+}
+
+.vimeo {
+    display: block;
+    margin-left: 750px;
+    margin-top: -96px;
+}
+
+.facebook:hover {
+    background-color: #75cec2;
+}
+
+.twitter:hover{
+    background-color: #75cec2;
+}
+
+.vimeo:hover{
+    background-color: #75cec2;
+}
+
+/*footer*/
+
+.features5{
+    width:100%;
+    padding: 59px 0;
+    background: #75cec2;
+    height: 20px;
+    margin-top: 0px;
+}
+
+
+.feature5 .title-section5 {
+    display: block;
+    width: 179%;
+    margin-top: 570px;
+    margin-left: 620px;
+}
+
+.feature6 .title-section6 {
+    display: block;
+    width: 179%;
+    margin-top: 570px;
+    margin-left: 620px;
+}
+
+
+.feature5 p{
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'lato-regular', arial;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: -574px;
+    margin-left: -130px;
+}
+
+.feature6 p{
+    margin-bottom: 20px;
+    color: #1d1e22;
+    font-family: 'lato-regular', arial;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: -594px;
+    margin-left: -45px;
+}
+
